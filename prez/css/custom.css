@@ -2,3 +2,19 @@ svg {
 	width: 64px;
 	height: 64px;
 }
+
+
+.reveal table th, .reveal table td {
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-bottom: none;
+}
+
+tr .icon-row {
+	padding-top: 1em;
+}
+
+tr .text-row {
+	padding-top: 0;
+}
