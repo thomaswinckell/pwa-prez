@@ -11,14 +11,18 @@ svg {
     border-bottom: none;
 }
 
-tr .icon-row {
+.reveal tr .icon-row {
 	padding-top: 1em;
 }
 
-tr .text-row {
+.reveal tr .text-row {
 	padding-top: 0;
 }
 
 .reveal blockquote {
 	width: 100%;
+}
+
+.reveal blockquote .author-name {
+	text-align: right;
 }
