@@ -18,3 +18,7 @@ tr .icon-row {
 tr .text-row {
 	padding-top: 0;
 }
+
+.reveal blockquote {
+	width: 100%;
+}
