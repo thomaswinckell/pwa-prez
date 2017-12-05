@@ -8,6 +8,10 @@ svg.pwa-logo, svg.react-logo  {
 	height: 90px;
 }
 
+.reveal div.progress-icon {
+	display: inline-flex;
+}
+
 div.webpack-logo img {
 	width: 200px;
 	height: 139px;
@@ -83,4 +87,8 @@ div .source {
 
 ul.links li {
 	font-size: 30px !important;
+}
+
+.reveal table{
+	padding-bottom: 30px;
 }
