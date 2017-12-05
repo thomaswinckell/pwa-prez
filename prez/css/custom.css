@@ -8,12 +8,20 @@ svg.pwa-logo, svg.react-logo  {
 	height: 90px;
 }
 
+div.webpack-logo img {
+	width: 200px;
+	height: 139px;
+	border: none;
+	box-shadow: none;
+	margin-left: 0;
+}
+
 .reveal div.logo-row {
 	display: inline-flex;
 }
 
 .reveal div.logo-row div * {
-	margin: 15px;
+	margin: 30px;
 }
 
 .reveal table th, .reveal table td {
