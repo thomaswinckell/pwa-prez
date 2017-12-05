@@ -60,3 +60,7 @@ div .source {
 .reveal pre.fullscreen code {
 	max-height: 570px;
 }
+
+ul.links li {
+	font-size: 30px !important;
+}
