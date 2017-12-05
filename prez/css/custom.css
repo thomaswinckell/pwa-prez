@@ -67,9 +67,14 @@ div .source {
 	margin: 0 0 0.5rem 0;
 }
 
-.reveal section h3 {
+.reveal section h3,
+.reveal section h4 {
 	margin: 0 0 1rem 0;
 	color: #0469D9;
+}
+
+.reveal section h4 {
+	text-transform: none;
 }
 
 .reveal section strong {
