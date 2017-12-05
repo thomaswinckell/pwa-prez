@@ -3,6 +3,18 @@ svg {
 	height: 64px;
 }
 
+svg.pwa-logo, svg.react-logo  {
+	width: 200px;
+	height: 90px;
+}
+
+.reveal div.logo-row {
+	display: inline-flex;
+}
+
+.reveal div.logo-row div * {
+	margin: 15px;
+}
 
 .reveal table th, .reveal table td {
     text-align: center;
