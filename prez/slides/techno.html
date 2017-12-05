@@ -17,8 +17,17 @@
         <li>JS library for building UI</li>
         <li>Fast, simple, scalable</li>
         <li>Support server side rendering</li>
-        <li><!-- TODO : code example showing switch between renderToString and render --></li>
     </ul>
+    <pre>
+        <code class="language-js">import ReactDOM from 'react-dom';
+
+ReactDOM.render(&lt;App/&gt;, document.getElementById('app'))</code>
+    </pre>
+    <pre>
+        <code class="language-js">import ReactDOMServer from 'react-dom/server';
+
+ReactDOMServer.renderToString(&lt;App/&gt;)</code>
+    </pre>
 </section>
 
 <section>
@@ -26,8 +35,26 @@
     <ul>
         <li>Router library for React</li>
         <li>Can be used on both client and server side</li>
-        <li><!-- TODO : code example showing switch between static router and hash router --></li>
     </ul>
+    <pre>
+        <code class="language-js">import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+
+ReactDOM.render(
+    &lt;BrowserRouter&gt;
+      &lt;App/&gt;
+    &lt;/BrowserRouter&gt;,
+document.getElementById('app'))</code>
+    </pre>
+    <pre>
+        <code class="language-js">import ReactDOMServer from 'react-dom/server';
+import { StaticRouter } from 'react-router-dom';
+
+ReactDOMServer.renderToString(
+    &lt;StaticRouter&gt;
+      &lt;App/&gt;
+    &lt;/StaticRouter&gt;)</code>
+    </pre>
 </section>
 
 <section>
