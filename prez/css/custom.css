@@ -16,7 +16,7 @@ div.webpack-logo img {
 	margin-left: 0;
 }
 
-.reveal div.logo-row {
+.reveal div.logo-row, .reveal td.logo-row {
 	display: inline-flex;
 }
 
