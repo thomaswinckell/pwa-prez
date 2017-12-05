@@ -18,7 +18,29 @@
 </section>
 
 <section>
+    <h3>Service Worker Registration</h3>
+ <pre class="fullscreen"><code class="language-js">if(navigator.serviceWorker) { 
+ navigator.serviceWorker.register("sw.js")
+    .then(function (registration) {
+        // here you can : 
+        // define a scope, subscribe to push notifs...
+       console.log('Yay!');
+    }).catch("Service Worker Error");
+}</code></pre>
+</section>
+
+<section>
     <h3>Service Worker Lifecycle</h3>
     <div class="source"><a href="https://developers.google.com/web/fundamentals/primers/service-workers/">source: Service Workers: an Introduction - https://developers.google.com/web/fundamentals/primers/service-workers/</a></div>
     <img src="img/sw-lifecycle.png"/>
+</section>
+
+<section>
+    <h3>Service Worker Event Listener</h3>
+ <pre class="fullscreen"><code class="language-js">self.addEventListener('fetch', function (event) {
+    event.respondWith(
+        fetch('www.google.fr')
+    );
+});
+</code></pre>
 </section>
