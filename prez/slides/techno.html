@@ -18,13 +18,19 @@
         <li>Fast, simple, scalable</li>
         <li>Support server side rendering</li>
     </ul>
-    <pre>
-        <code class="language-js">import ReactDOM from 'react-dom';
+</section>
+
+<section>
+    <h3>Isomorphic React example</h3>
+    <pre style="height: 13rem;"><code class="language-js">// Client side
+
+import ReactDOM from 'react-dom';
 
 ReactDOM.render(&lt;App/&gt;, document.getElementById('app'))</code>
     </pre>
-    <pre>
-        <code class="language-js">import ReactDOMServer from 'react-dom/server';
+    <pre style="height: 13rem; margin-top: 2rem;"><code class="language-js">// Server side
+
+import ReactDOMServer from 'react-dom/server';
 
 ReactDOMServer.renderToString(&lt;App/&gt;)</code>
     </pre>
@@ -36,8 +42,13 @@ ReactDOMServer.renderToString(&lt;App/&gt;)</code>
         <li>Router library for React</li>
         <li>Can be used on both client and server side</li>
     </ul>
-    <pre>
-        <code class="language-js">import ReactDOM from 'react-dom';
+</section>
+
+<section>
+    <h3>Isomorphic React-router example</h3>
+    <pre style="height: 13rem;"><code class="language-js">// Client side
+
+import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
@@ -46,14 +57,16 @@ ReactDOM.render(
     &lt;/BrowserRouter&gt;,
 document.getElementById('app'))</code>
     </pre>
-    <pre>
-        <code class="language-js">import ReactDOMServer from 'react-dom/server';
+    <pre style="height: 13rem; margin-top: 2rem;"><code class="language-js">// Server side
+
+import ReactDOMServer from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
 
 ReactDOMServer.renderToString(
     &lt;StaticRouter&gt;
       &lt;App/&gt;
-    &lt;/StaticRouter&gt;)</code>
+    &lt;/StaticRouter&gt;
+)</code>
     </pre>
 </section>
 
@@ -74,5 +87,5 @@ ReactDOMServer.renderToString(
 </section>
 
 <section>
-    <img src="img/architecture-2.png"/>
+    <img src="img/architecture-2.png" style="height: 40rem;"/>
 </section>
